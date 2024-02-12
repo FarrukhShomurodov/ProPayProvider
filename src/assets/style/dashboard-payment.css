@@ -1,0 +1,66 @@
+.type_pay_main {
+  display: grid;
+  grid-template-columns: repeat(4, 140px);
+  gap: 10px;
+}
+
+.type_pay {
+  height: 100px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.type_pay p {
+  margin-top: 30px;
+  font-size: 18px;
+  text-align: start;
+  word-wrap: break-word;
+  white-space: unset;
+}
+
+/* Payment Items */
+.pay_type_item img {
+  width: 100%;
+}
+
+/* Sucess Payment */
+.sucess_payment {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100vh;
+  align-items: center;
+  justify-items: center;
+}
+
+.success_payment_info {
+  display: grid;
+  gap: 15px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.success_payment_info button {
+  background-color: transparent;
+  color: #9b3795;
+  font-size: 17px;
+}
+
+.powered_by {
+  position: absolute;
+  bottom: 4%;
+  color: #a3a3a3;
+}
+
+.success_pay_redirect {
+  position: relative;
+  top: 40px;
+}
+
+.success_pay_redirect p {
+  font-size: 13px;
+}
+
+.success_pay_redirect a {
+  font-size: 17px !important;
+  color: #9b3795;
+}

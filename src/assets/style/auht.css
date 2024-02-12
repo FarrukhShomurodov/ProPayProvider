@@ -1,0 +1,50 @@
+.auth{
+  background-color: #f3f3f3;
+}
+
+.auth_container {
+  height: 100vh;
+  max-width: 750px;
+  background-color: white;
+  margin: auto;
+}
+
+.auth_details {
+  max-width: 480px;
+}
+
+.auth_details * {
+  margin-top: 10px;
+}
+
+.auth_details p {
+  margin: 0;
+  font-size: 25px;
+  color: #575757;
+}
+
+.line {
+  width: 53px;
+  height: 0;
+  border: 1px solid #c4c4c4;
+  margin: 0 3px 0 3px;
+  display: inline-block;
+}
+
+.auth_details button {
+  height: 47px;
+  font-size: 23px;
+  color: white;
+  background-color: #333333;
+  border-radius: 9px;
+}
+
+.auth_details button img {
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+.auth_details span {
+  font-size: 18px;
+  color: #5fe0d8;
+}

@@ -1,0 +1,83 @@
+/*import components*/
+@import url(./style.css);
+@import url(./auht.css);
+@import url(./modal.css);
+@import url(./dashboard.css);
+@import url(./dashboard-main.css);
+@import url(./dashboard-payment.css);
+@import url(./dashboard-payment-history.css);
+@import url(./dashboard-card.css);
+
+/*import font*/
+@font-face {
+  font-family: "GT Walsheim Pro";
+  src: local("GT Walsheim Pro Regular"), local("GT-Walsheim-Pro-Regular"),
+    url("../font/GTWalsheimPro-Regular.woff2") format("woff2"),
+    url("../font/GTWalsheimPro-Regular.woff") format("woff"),
+    url("../font/GTWalsheimPro-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT Walsheim Pro";
+  src: local("GT Walsheim Pro Medium"), local("GT-Walsheim-Pro-Medium"),
+    url("../font/GTWalsheimPro-Medium.woff2") format("woff2"),
+    url("../font/GTWalsheimPro-Medium.woff") format("woff"),
+    url("../font/GTWalsheimPro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT Walsheim Pro";
+  src: local("GT Walsheim Pro Bold"), local("GT-Walsheim-Pro-Bold"),
+    url("../font/GTWalsheimPro-Bold.woff2") format("woff2"),
+    url("../font/GTWalsheimPro-Bold.woff") format("woff"),
+    url("../font/GTWalsheimPro-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  font-family: "GT Walsheim Pro";
+}
+
+/* Scroll */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e7e7e7;
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cecece;
+}
+
+body {
+  background-color: white;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+}
+
+input:focus{
+  border: 1px solid #9B3795 !important;
+  box-shadow: 0px 0px 0px !important;
+  transition: 0.2s;
+}
+
+.label {
+  color:  #9B3795 !important;
+  transition: 0.2s;
+}

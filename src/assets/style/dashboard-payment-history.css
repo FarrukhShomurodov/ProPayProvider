@@ -1,0 +1,35 @@
+.statistics button {
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 16px !important;
+}
+
+.transaction_con {
+  width: 100%;
+  background-color: #f3f3f3;
+  border-radius: 20px;
+  padding: 10px;
+  min-height: 60px;
+  height: auto;
+}
+
+.transaction_con p {
+  font-size: 17px;
+}
+
+.transaction_con_consumption {
+  font-size: 16px !important;
+  color: #7D7D7D;
+}
+
+.transaction_con_consumption button{
+    background-color: #D9D9D9;
+    color: #7D7D7D;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.transaction_image_to {
+  border: 1px solid #9b3795;
+  border-radius: 13px;
+}
