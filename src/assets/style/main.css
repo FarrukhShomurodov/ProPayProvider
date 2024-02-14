@@ -1,12 +1,11 @@
 /*import components*/
 @import url(./style.css);
-@import url(./auht.css);
 @import url(./modal.css);
-@import url(./dashboard.css);
-@import url(./dashboard-main.css);
-@import url(./dashboard-payment.css);
-@import url(./dashboard-payment-history.css);
-@import url(./dashboard-card.css);
+@import url(./payment_info.css);
+@import url(./provider_info.css);
+@import url(./confirm_number.css);
+@import url(./pro_id_user_payment.css);
+@import url(./swiper_style.css);
 
 /*import font*/
 @font-face {
@@ -61,23 +60,54 @@
   background: #cecece;
 }
 
+/* Input type Number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 body {
   background-color: white;
 }
 
-.logo {
+.header {
   position: absolute;
-  top: 10px;
-  left: 25px;
+  top: 20px;
 }
 
-input:focus{
-  border: 1px solid #9B3795 !important;
+input:focus {
+  border: 1px solid #9b3795 !important;
   box-shadow: 0px 0px 0px !important;
   transition: 0.2s;
 }
 
 .label {
-  color:  #9B3795 !important;
+  color: #9b3795 !important;
   transition: 0.2s;
+}
+
+._body {
+  max-width: 550px;
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.line {
+  width: 89px;
+  height: 0;
+  border: 1px solid #c4c4c4;
+  margin: 0 3px 0 3px;
+  display: inline-block;
+}
+
+.menu_icon{
+  background-color: #F3F3F3;
+  border-radius: 15px;
 }

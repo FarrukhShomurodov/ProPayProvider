@@ -24,7 +24,7 @@ const close = () => emit("close");
               />
               <h3>Добавить карту</h3>
             </div>
-            <div class="d-flex col section_container add_new_card_modal">
+            <div class="d-flex col section_container add_new_card_modal mt-10">
               <div class="cards_con d-flex col justify-content-between gap-10">
                 <div class="d-flex col">
                   <div
@@ -51,46 +51,45 @@ const close = () => emit("close");
                   <div
                     class="d-flex justify-content-between align-items-center row"
                   >
-                    <p class="card_number">8600 14** **** 3632</p>
-                    <button class="btn">extra name</button>
+                    <p class="card_number">**** **** **** ****</p>
                   </div>
                 </div>
               </div>
-              <section class="section_container">
+              <section class="section_container mt-30">
                 <h3>Данные карты</h3>
-                <div class="card_info_input">
+                <div class="card_info_input mt-20">
                   <input
                     type="number"
-                    class="form-input phone_number"
+                    class="form-input phone_number w-100"
                     placeholder="1234 1234 1234 1234"
                   />
                   <div class="d-flex row">
                     <input
                       type="number"
-                      class="form-input phone_number card_month"
+                      class="form-input phone_number card_month w-100"
                       placeholder="12"
                       style="border-radius: 0 0 0 10px !important"
                     />
                     <input
                       type="number"
-                      class="form-input phone_number"
+                      class="form-input phone_number w-100"
                       placeholder="2023"
                     />
                   </div>
                 </div>
               </section>
-              <section class="section_container">
+              <section class="section_container mt-30">
                 <h3>Название карты</h3>
                 <input
                   type="text"
-                  class="form-input phone_number"
+                  class="form-input phone_number w-100 mt-20"
                   placeholder="Введите имя карты "
                 />
               </section>
             </div>
             <div class="modal-footer">
               <slot name="footer">
-                <button class="modal-default-button-add-card mt-10">
+                <button class="modal-default-button-add-card mt-20">
                   Добавить карту
                 </button>
               </slot>

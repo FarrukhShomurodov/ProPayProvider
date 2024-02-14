@@ -1,0 +1,19 @@
+.swiper {
+  width: 350px;
+  height: 200px;
+  margin-left: 0 !important;
+}
+
+.swiper-slide {
+  background: transparent;
+}
+
+.swiper-3d .swiper-slide-shadow{
+    height: 0% !important;
+}
+
+.swiper-slide .swiper-slide-next{
+    width: 348px;
+    transform: translate3d(calc(13% - 696px), 0px, -200px) scale(1) !important;
+    transition-duration: 0ms;
+}

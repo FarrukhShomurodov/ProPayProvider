@@ -1,0 +1,43 @@
+.payment_info input{
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.25);
+}
+
+.cards_con {
+  width: 350px;
+  height: 200px;
+  background-color: #006977;
+  border-radius: 20px;
+  padding: 15px;
+  color: white;
+}
+
+.card_con * {
+  font-weight: 400 !important;
+}
+
+.extra_name {
+  font-size: 10px;
+  padding: 3px;
+  height: fit-content;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  white-space: break-spaces;
+}
+
+.card_number {
+  font-size: 16px !important;
+  letter-spacing: 3px;
+}
+
+.add_new_card {
+  background-color: transparent !important;
+  color: white;
+  font-size: 20px;
+}
+
+.pro_id_prowered_by{
+  width: 100% !important;
+  position: relative !important;
+  top: 20px;
+}
+

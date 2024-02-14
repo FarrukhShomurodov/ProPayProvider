@@ -1,0 +1,97 @@
+.payment_info {
+  height: 100vh;
+  width: 50%;
+}
+
+.payment_info .header {
+  right: 10px !important;
+}
+
+.auth {
+  font-size: 25px;
+  color: #575757;
+}
+
+.login_pro_id button {
+  height: 47px;
+  font-size: 23px;
+  color: white;
+  background-color: #333333;
+  border-radius: 9px;
+}
+
+.login_pro_id span {
+  font-size: 18px;
+  color: #5fe0d8;
+  float: right;
+  padding: 5px;
+}
+
+.paymetn_without_auth_card_data {
+  position: relative;
+  top: 20px;
+}
+
+.paymetn_without_auth_card_data .form-input {
+  height: 48px;
+  border: none;
+}
+
+.paymetn_without_auth_card_data button {
+  width: 100% !important;
+  margin-left: 0 !important;
+  background-color: #9b3795;
+  color: white;
+}
+
+.powered_by {
+  width: 25%;
+  position: absolute;
+  bottom: 10%;
+}
+
+.powered_by button {
+  font-size: 13px;
+  background-color: transparent;
+}
+
+.powered_by h3 {
+  font-size: 20px !important;
+  color: #a3a3a3;
+}
+
+/* Sucess Payment */
+.sucess_payment {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100vh;
+  align-items: center;
+  justify-items: center;
+}
+
+.success_payment_info {
+  display: grid;
+  gap: 15px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.success_payment_info button {
+  background-color: transparent;
+  color: #9b3795;
+  font-size: 17px;
+}
+
+.success_pay_redirect {
+  position: relative;
+  top: 40px;
+}
+
+.success_pay_redirect p {
+  font-size: 13px;
+}
+
+.success_pay_redirect a {
+  font-size: 17px !important;
+  color: #9b3795;
+}

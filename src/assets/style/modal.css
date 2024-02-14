@@ -35,6 +35,12 @@
   margin-left: 10%;
 }
 
+.add_new_card_modal .form-input {
+  height: 38px;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+}
+
 .modal-default-button-add-card {
   margin-left: 10%;
   width: 90%;
@@ -52,6 +58,7 @@
   border-bottom: 1px solid #a8a8a8 !important;
   border-radius: 10px 10px 0 0 !important;
 }
+
 .card_month {
   border-bottom: 0px !important;
 }
@@ -83,8 +90,6 @@
   box-shadow: none !important;
   border-radius: 10px !important;
 }
-
-
 
 /*Modal*/
 .modal-mask {
@@ -162,6 +167,58 @@
   height: 48px;
 }
 
+/* Provider Show */
+.provider_deteils_modal {
+  width: 400px !important;
+}
+.provider_deteils_modal ul li {
+  margin-top: 20px;
+}
+
+.provider_deteils_modal ul li span {
+  white-space: nowrap;
+}
+
+.provider_deteils_modal ul li p {
+  white-space: break-spaces;
+}
+
+/* link copied */
+.link_copied {
+  position: absolute;
+  bottom: 2%;
+  width: 250px;
+  padding: 10px;
+  border-radius: 48px;
+  text-align: center;
+  background-color: #e0e0e0;
+}
+
+/* Cashback */
+.get_cashback {
+  width: 350px;
+  background-color: #16b079;
+  color: white;
+  border-radius: 20px 20px 0px 0px;
+  position: absolute;
+  bottom: -5px;
+  right: 5%;
+  padding: 10px;
+}
+
+/* user cards */
+.user_cards {
+  max-height: 700px;
+  white-space: nowrap;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin-left: 10%;
+}
+
+.add_card_bnt_modal {
+  margin-left: 10%;
+  height: 100px !important;
+}
 /* Adaptive */
 @media screen and (max-width: 600px) {
   .modal-container {

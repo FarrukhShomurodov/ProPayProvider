@@ -1,44 +1,26 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Main from '../views/dashboard pages/Main.vue'
-
-// Payment components
-import Payment from '../views/dashboard pages/Payment.vue'
-import PaymentHistory from "../views/dashboard pages/PaymentHistory.vue"
-import PaymentItems from "../views/dashboard pages/payment items/PaymentItems.vue"
-
-// Card components
-import Cards from "../views/dashboard pages/Cards.vue"
+import PaymentInfo from "../views/PaymentInfo.vue"
+import ProIdUserPayment from "../views/ProIdUserPayment.vue"
+import SuccessPayment from "../views/SuccessPayment.vue" 
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/main',
-      name: 'main',
-      component: Main,
+      path: '/',
+      name: 'payment-info',
+      component: PaymentInfo,
     },
     {
-      path: '/payment',
-      name: 'payment',
-      component: Payment,
-      children: [
-          {
-            path: '/payment-items',
-            name: 'payment-items',
-            component: PaymentItems,
-          }
-      ]
+      path: '/proid-payment',
+      name: 'pro-id-user-payment',
+      component: ProIdUserPayment
     },
     {
-      path: '/payment-history',
-      name: 'payment-history',
-      component: PaymentHistory,
-    },
-    {
-      path: '/cards',
-      name: 'cards',
-      component: Cards,
-    },
+      path: '/success-payment',
+      name: 'success-payment',
+      component: SuccessPayment
+    }
   ]
 })
 

@@ -1,11 +1,14 @@
 <script setup>
-import {RouterView } from 'vue-router'
+import { RouterView } from "vue-router";
+import ProviderInfo from "./views/ProviderInfo.vue";
 
 </script>
 
 <template>
-  <RouterView />
+  <div :class="{ 'd-flex row': $route.name !== 'success-payment' }">
+    <ProviderInfo v-if="$route.name !== 'success-payment'"/>
+    <RouterView />
+  </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
